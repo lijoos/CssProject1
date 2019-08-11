@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js compile:sass",
-    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+    "start": "nodemon server.js",
+    "compile:sass":"node-sass sass/main.scss css/style.css -w",
+    "compile-sass":"node-sass sass/main.scss public/css/style.css -w"
   },
   "author": "lijo",
   "license": "ISC",
